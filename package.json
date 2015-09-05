@@ -1,0 +1,19 @@
+{
+  "name": "tani",
+  "version": "0.0.0",
+  "description": "Commandline tool for generating data sets",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tanilogy/tani.git"
+  },
+  "author": "Hage Yaapa <captain@hacksparrow.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tanilogy/tani/issues"
+  },
+  "homepage": "https://github.com/Tanilogy/tani"
+}
