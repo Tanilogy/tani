@@ -1,0 +1,2 @@
+global V11 = { literal: 'Hear / listen' } 
+CREATE (n:Concept %V11%)

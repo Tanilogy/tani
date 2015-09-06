@@ -1,0 +1,2 @@
+global V12 = { literal: 'Know' } 
+CREATE (n:Concept %V12%)

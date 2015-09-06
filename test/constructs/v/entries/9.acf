@@ -1,0 +1,2 @@
+global V9 = { literal: 'Drink' } 
+CREATE (n:Concept %V9%)

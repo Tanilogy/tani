@@ -1,10 +1,14 @@
 {
   "name": "tani",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Commandline tool for generating data sets",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "pretest": "node_modules/standard/bin/cmd.js",
+    "test": "node_modules/mocha/bin/mocha test"
+  },
+  "bin": {
+    "tani": "index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/Tanilogy/tani/issues"
   },
-  "homepage": "https://github.com/Tanilogy/tani"
+  "homepage": "https://github.com/Tanilogy/tani",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "debug": "^2.2.0",
+    "fs-extra": "^0.24.0",
+    "minimist": "^1.2.0",
+    "mocha": "^2.3.0",
+    "standard": "^5.2.1"
+  }
 }

@@ -1,0 +1,2 @@
+global N6 = { literal: 'Mother' } 
+CREATE (n:Concept %N6%)

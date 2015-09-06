@@ -1,0 +1,2 @@
+global VM1 = { literal: 'Order to do.' } 
+CREATE (n:Concept %VM1%)

@@ -1,0 +1,2 @@
+global N3 = { literal: 'Male' } 
+CREATE (n:Concept %N3%)

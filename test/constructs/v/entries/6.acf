@@ -1,0 +1,2 @@
+global V6 = { literal: 'Walk' } 
+CREATE (n:Concept %V6%)

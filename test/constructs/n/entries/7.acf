@@ -1,0 +1,2 @@
+global N7 = { literal: 'Father' } 
+CREATE (n:Concept %N7%)

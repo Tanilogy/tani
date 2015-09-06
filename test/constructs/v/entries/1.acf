@@ -1,0 +1,2 @@
+global V1 = { literal: 'Create / Make' } 
+CREATE (n:Concept %V1%)

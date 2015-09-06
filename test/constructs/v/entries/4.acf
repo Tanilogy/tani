@@ -1,0 +1,2 @@
+global V4 = { literal: 'Come' } 
+CREATE (n:Concept %V4%)

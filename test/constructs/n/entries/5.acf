@@ -1,0 +1,2 @@
+global N5 = { literal: 'Offspring' } 
+CREATE (n:Concept %N5%)

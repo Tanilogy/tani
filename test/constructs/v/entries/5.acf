@@ -1,0 +1,2 @@
+global V5 = { literal: 'Go' } 
+CREATE (n:Concept %V5%)

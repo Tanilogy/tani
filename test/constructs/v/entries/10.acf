@@ -1,0 +1,2 @@
+global V10 = { literal: 'Say / Talk' } 
+CREATE (n:Concept %V10%)

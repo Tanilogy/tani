@@ -1,0 +1,2 @@
+global N1 = { literal: 'Man / Human' } 
+CREATE (n:Concept %N1%)
