@@ -1,0 +1,5 @@
+var root = { entity: 'abo', type: 'n' }
+MERGE (n:Root %root%);
+
+MATCH (a:Root %root%), (b:Concept %N7%) MERGE (a)-[:MEANS]->(b);
+MATCH (a:Root %root%), (b:Locality %locality%) MERGE (a)-[:USED_AT]->(b);

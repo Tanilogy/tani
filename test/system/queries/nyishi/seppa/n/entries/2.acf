@@ -1,0 +1,5 @@
+var root = { entity: 'uyu', type: 'n' }
+MERGE (n:Root %root%);
+
+MATCH (a:Root %root%), (b:Concept %N2%) MERGE (a)-[:MEANS]->(b);
+MATCH (a:Root %root%), (b:Locality %locality%) MERGE (a)-[:USED_AT]->(b);

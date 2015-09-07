@@ -1,6 +1,0 @@
-# good to experience
-# Used for describing quality of being.
-
-Root: po
-Example: 
-Example: 

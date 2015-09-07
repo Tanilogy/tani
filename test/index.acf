@@ -1,17 +1,4 @@
 MATCH (a) OPTIONAL MATCH (a)-[r]-(b) DELETE a, r, b
 
-# top-level global variables
-global verb = { type: 'v', description: 'Verb' }
-global verb-modifier = { type: 'vm', description: 'Verb Modifier' }
-global noun = { type: 'n', description: 'Noun' }
-global noun-modifier = { type: 'nm', description: 'Noun Modifier' }
-global adjective = { type: 'adj', description: 'Adjective' }
-
-CREATE (n:Construct %verb%);
-CREATE (n:Construct %verb-modifier%);
-CREATE (n:Construct %noun%);
-CREATE (n:Construct %noun-modifier%);
-CREATE (n:Construct %adjective%);
-
 include system/concepts/index.acf
 include system/queries/index.acf

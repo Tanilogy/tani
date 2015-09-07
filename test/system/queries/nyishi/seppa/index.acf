@@ -1,0 +1,8 @@
+var locality = { name: 'Seppa', lat: 0, long: 0, script: 'nes' }
+
+CREATE (n:Locality %locality%)
+
+include n/index.acf
+include nm/index.acf
+include v/index.acf
+include vm/index.acf

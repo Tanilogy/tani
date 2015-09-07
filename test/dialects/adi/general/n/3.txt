@@ -1,5 +1,0 @@
-# Male
-
-Root: nyir
-Example: 
-Example: 

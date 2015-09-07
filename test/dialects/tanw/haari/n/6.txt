@@ -1,5 +1,5 @@
 # Mother
 
-Root: Aama
+Root: Anw
 Example: 
 Example: 

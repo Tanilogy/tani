@@ -1,4 +1,4 @@
-var locality = { name: 'Haari', lat: 0, long: 0, script: 'default' }
+var locality = { name: 'Haari', lat: 0, long: 0, script: 'aldc' }
 
 CREATE (n:Locality %locality%)
 

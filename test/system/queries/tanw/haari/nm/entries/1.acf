@@ -1,6 +1,0 @@
-var root = { root: 'pyo' }
-CREATE (n:%tribe% %root%);
-
-MATCH (a:%tribe% %root%), (b:Construct %noun-modifier%) CREATE (a)-[:TYPE_OF]->(b);
-MATCH (a:%tribe% %root%), (b:Concept %NM1%) CREATE (a)-[:MEANS]->(b);
-MATCH (a:%tribe% %root%), (b:Locality %locality%) CREATE (a)-[:USED_AT]->(b);

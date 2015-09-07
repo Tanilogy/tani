@@ -1,5 +1,5 @@
 # Female
 
-Root: Nyimw
+Root: zimw
 Example: 
 Example: 

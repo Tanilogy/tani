@@ -1,5 +1,5 @@
 # Spirit
 
-Root: Uyi
+Root: Ui
 Example: 
 Example: 

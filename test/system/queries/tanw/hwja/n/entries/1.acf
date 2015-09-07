@@ -1,6 +1,5 @@
-var root = { root: 'Miyu' }
-CREATE (n:%tribe% %root%);
+var root = { entity: 'miyu', type: 'n' }
+MERGE (n:Root %root%);
 
-MATCH (a:%tribe% %root%), (b:Construct %noun%) CREATE (a)-[:TYPE_OF]->(b);
-MATCH (a:%tribe% %root%), (b:Concept %N1%) CREATE (a)-[:MEANS]->(b);
-MATCH (a:%tribe% %root%), (b:Locality %locality%) CREATE (a)-[:USED_AT]->(b);
+MATCH (a:Root %root%), (b:Concept %N1%) MERGE (a)-[:MEANS]->(b);
+MATCH (a:Root %root%), (b:Locality %locality%) MERGE (a)-[:USED_AT]->(b);

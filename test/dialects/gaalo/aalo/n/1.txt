@@ -1,5 +1,5 @@
 # Man / Human
 
-Root: Nyi
+Root: Xi
 Example: 
 Example: 
