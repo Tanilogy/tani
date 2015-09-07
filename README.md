@@ -1,6 +1,10 @@
 # tani
 Commandline tool for generating data sets
 
+dialect files - text file under dialects/tribe/locality, which contain root word information
+concept files - acf files under system/concepts which contain 
+query files - acf query files under system/queries/tribe/path
+
 ## tani tool
 $ tani init galo/aalo <-- set up dirs and files for galo tribe and aalo locality based on files existing in constructs
 $ tani init galo/tato from galo/aalo <-- set up dirs and files for galo tribe and tato locality based on galo/aalo

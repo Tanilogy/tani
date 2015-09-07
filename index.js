@@ -26,6 +26,21 @@ switch (command) {
     lib.del(argv)
     break
 
+  // compile the dialect files to apoc queries
+  case 'compile':
+    lib.compile(argv)
+    break
+
+  // create empty dialect files from new construct files
+  case 'sync':
+    lib.sync(argv)
+    break
+
+  // translator
+  case 'translate':
+    lib.translate(argv)
+    break
+
   default:
     console.log(' Command not supported %s', command)
 }
