@@ -1,0 +1,3 @@
+var e1 = { example: 'nyimw kaapyo', meaning: 'beatiful girl' }
+CREATE (n:Example %e1%);
+MATCH (a:Example %e1%), (b:Derivate %d1%) CREATE (a)-[:EXAMPLE_OF]->(b)

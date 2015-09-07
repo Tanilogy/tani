@@ -1,0 +1,3 @@
+var d1 = { root: 'kaapyo', literal: 'good to look at', implied: 'beautiful' }
+CREATE (n:Derivate %d1%);
+MATCH (a:Derivate %d1%), (b:%tribe% %nm%) CREATE (a)-[:DERIVATE_OF]->(b)
