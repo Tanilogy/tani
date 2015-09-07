@@ -1,0 +1,6 @@
+var root = { root: 'Aama' }
+CREATE (n:%tribe% %root%);
+
+MATCH (a:%tribe% %root%), (b:Construct %noun%) CREATE (a)-[:TYPE_OF]->(b);
+MATCH (a:%tribe% %root%), (b:Concept %N6%) CREATE (a)-[:MEANS]->(b);
+MATCH (a:%tribe% %root%), (b:Locality %locality%) CREATE (a)-[:USED_AT]->(b);

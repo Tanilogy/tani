@@ -1,1 +1,3 @@
 include tanw/index.acf
+include gaalo/index.acf
+include adi/index.acf
