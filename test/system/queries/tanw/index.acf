@@ -2,3 +2,4 @@ var tribe = Tanw
 
 include haari/index.acf
 include hwja/index.acf
+include hong/index.acf
