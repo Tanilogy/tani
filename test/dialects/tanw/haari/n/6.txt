@@ -1,5 +1,0 @@
-# Mother
-
-Root: Anw
-Example: 
-Example: 

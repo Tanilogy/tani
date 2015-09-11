@@ -1,8 +1,0 @@
-var locality = { name: 'Aalo', lat: 0, long: 0, script: 'gws' }
-
-CREATE (n:Locality %locality%)
-
-include n/index.acf
-include nm/index.acf
-include v/index.acf
-include vm/index.acf

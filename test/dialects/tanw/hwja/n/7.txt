@@ -1,5 +1,0 @@
-# Father
-
-Root: Aaba
-Example: 
-Example: 

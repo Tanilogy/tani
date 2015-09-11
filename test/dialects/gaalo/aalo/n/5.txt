@@ -1,5 +1,0 @@
-# Offspring
-
-Root: Uqa
-Example: 
-Example: 

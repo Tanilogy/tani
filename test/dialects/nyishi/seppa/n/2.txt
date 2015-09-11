@@ -1,5 +1,0 @@
-# Spirit
-
-Root: Uyu
-Example: 
-Example: 

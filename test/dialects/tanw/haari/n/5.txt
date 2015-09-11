@@ -1,5 +1,0 @@
-# Offspring
-
-Root: Wqa
-Example: 
-Example: 

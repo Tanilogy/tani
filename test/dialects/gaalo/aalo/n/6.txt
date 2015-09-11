@@ -1,5 +1,0 @@
-# Mother
-
-Root: Anv
-Example: 
-Example: 

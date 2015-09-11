@@ -1,5 +1,0 @@
-# Father
-
-Root: Abo
-Example: 
-Example: 

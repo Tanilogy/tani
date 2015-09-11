@@ -1,5 +1,0 @@
-# Drink
-
-Root: 
-Example: 
-Example: 

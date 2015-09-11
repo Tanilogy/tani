@@ -1,5 +1,0 @@
-# Female
-
-Root: zimw
-Example: 
-Example: 

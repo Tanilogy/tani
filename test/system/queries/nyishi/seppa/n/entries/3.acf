@@ -1,5 +1,0 @@
-var root = { entity: 'ñiga', type: 'n' }
-MERGE (n:Root %root%);
-
-MATCH (a:Root %root%), (b:Concept %N3%) MERGE (a)-[:MEANS]->(b);
-MATCH (a:Root %root%), (b:Locality %locality%) MERGE (a)-[:USED_AT]->(b);

@@ -1,5 +1,0 @@
-# Male
-
-Root: Milbo
-Example: 
-Example: 
