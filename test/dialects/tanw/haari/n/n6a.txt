@@ -1,0 +1,5 @@
+# Mother
+# Form of addressing, like "mom" in English
+
+Root: Aama
+Example: 

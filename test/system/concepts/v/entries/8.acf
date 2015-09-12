@@ -1,2 +1,0 @@
-global V8 = { literal: 'Eat' } 
-CREATE (n:Concept %V8%)

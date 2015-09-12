@@ -1,2 +1,0 @@
-global V7 = { literal: 'Run' } 
-CREATE (n:Concept %V7%)

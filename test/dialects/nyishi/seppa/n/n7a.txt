@@ -1,0 +1,5 @@
+# Father
+# Form of addressing, like "dad" in English
+
+Root: Abo
+Example: 

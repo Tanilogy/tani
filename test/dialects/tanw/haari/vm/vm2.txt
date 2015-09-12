@@ -1,0 +1,4 @@
+# Negative action
+
+Root: 
+Example: 

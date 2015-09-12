@@ -1,2 +1,0 @@
-global N4 = { literal: 'Female' } 
-CREATE (n:Concept %N4%)

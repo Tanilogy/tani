@@ -1,2 +1,0 @@
-global NM2 = { literal: 'big / large' } 
-CREATE (n:Concept %NM2%)

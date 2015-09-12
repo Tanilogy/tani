@@ -1,0 +1,5 @@
+# Bad to experience
+# Used for describing quality of being.
+
+Root: 
+Example: 

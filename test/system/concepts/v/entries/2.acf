@@ -1,2 +1,0 @@
-global V2 = { literal: 'Do' } 
-CREATE (n:Concept %V2%)

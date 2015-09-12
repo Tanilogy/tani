@@ -1,2 +1,0 @@
-global V3 = { literal: 'See' } 
-CREATE (n:Concept %V3%)

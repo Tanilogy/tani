@@ -1,2 +1,0 @@
-global N2 = { literal: 'Spirit' } 
-CREATE (n:Concept %N2%)

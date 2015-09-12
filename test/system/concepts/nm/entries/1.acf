@@ -1,2 +1,0 @@
-global NM1 = { literal: 'good to experience', note: 'Used for describing quality of being.' } 
-CREATE (n:Concept %NM1%)
