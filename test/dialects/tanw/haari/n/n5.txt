@@ -1,4 +1,0 @@
-# Offspring
-
-Root: 
-Example: 

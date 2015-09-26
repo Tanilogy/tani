@@ -1,5 +1,0 @@
-# Father
-# Literal meaning of father
-
-Root: Aba
-Example: 

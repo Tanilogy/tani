@@ -1,4 +1,0 @@
-# Negative action
-
-Root: 
-Example: 

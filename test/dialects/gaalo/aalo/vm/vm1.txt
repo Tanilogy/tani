@@ -1,4 +1,0 @@
-# Imperative action
-
-Root: 
-Example: 
