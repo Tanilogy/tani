@@ -27,6 +27,7 @@
     "minimist": "^1.2.0",
     "mocha": "^2.3.0",
     "safe-eval": "^0.2.0",
-    "standard": "^5.2.1"
+    "standard": "^5.2.1",
+    "yamljs": "^0.2.4"
   }
 }

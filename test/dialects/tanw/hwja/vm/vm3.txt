@@ -1,0 +1,6 @@
+# Good to experience
+# Note: Used for describing quality of being.
+# Eg: kaa[pyo] = beautiful; in Tanw
+
+Root: 
+Example: 

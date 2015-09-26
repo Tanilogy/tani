@@ -1,0 +1,5 @@
+# Negative action
+# Eg: Mw[yo] = Do't do; in tanw/haari
+
+Root: 
+Example: 

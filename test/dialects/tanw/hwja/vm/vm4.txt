@@ -1,0 +1,6 @@
+# Bad to experience
+# Note: Used for describing quality of being.
+# Eg: kaa[ru] = ugly; in tanw/haari
+
+Root: 
+Example: 
