@@ -1,2 +1,2 @@
 global #GLOBALID# = { literal: "#DEFINITION#", note: "#NOTE#", example: "#EXAMPLE#" } 
-CREATE (n:Concept %#GLOBALID#%)
+MERGE (n:Concept %#GLOBALID#%)

@@ -1,0 +1,5 @@
+# To describe a small body
+# Eg: Doo[rzo] = small animal; in Tanw/haari
+
+Root: zo
+Example: 
