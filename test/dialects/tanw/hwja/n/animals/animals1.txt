@@ -1,4 +1,4 @@
 # Tiger
 
-Root: paath
+Root: 
 Example: 

@@ -2,5 +2,5 @@
 # Note: Form of addressing, like "mom" in English
 # Eg: Aamaa in tanw/haari
 
-Root: Aama
+Root: 
 Example: 

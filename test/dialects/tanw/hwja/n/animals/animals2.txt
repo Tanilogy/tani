@@ -1,4 +1,4 @@
 # Mithun
 
-Root: subu
+Root: 
 Example: 

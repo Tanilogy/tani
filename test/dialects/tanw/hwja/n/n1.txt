@@ -1,4 +1,4 @@
 # Man | Human
 
-Root: miyu
+Root: Mi
 Example: 
