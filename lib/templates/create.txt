@@ -1,4 +1,4 @@
-var root = { root: '#ROOT#', concept: '#CONCEPT#' }
+var root = { entity: '#ROOT#', concept: '#CONCEPT#' }
 MERGE (n:Root %root%);
 
 MATCH (a:Root %root%), (b:Concept %#GLOBALID#%) MERGE (a)-[:MEANS]->(b);
