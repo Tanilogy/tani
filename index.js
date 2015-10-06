@@ -44,4 +44,3 @@ switch (command) {
   default:
     console.log(' Command not supported %s', command)
 }
-

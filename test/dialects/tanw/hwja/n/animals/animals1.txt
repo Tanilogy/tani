@@ -1,4 +1,0 @@
-# Tiger
-
-Root: 
-Example: 

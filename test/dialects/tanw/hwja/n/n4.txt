@@ -1,4 +1,0 @@
-# Female
-
-Root: Zim
-Example: 

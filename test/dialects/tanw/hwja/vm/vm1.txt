@@ -1,5 +1,0 @@
-# Imperative action
-# Eg: Mw[to] = Do; in tanw/haari
-
-Root: 
-Example: 

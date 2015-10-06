@@ -1,6 +1,0 @@
-# Mother
-# Note: Literal meaning of mother
-# Eg: Anw in tanw/haari
-
-Root: 
-Example: 
