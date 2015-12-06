@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Tanilogy/tani",
   "dependencies": {
+    "apoc": "^3.0.0-alpha.0",
     "chalk": "^1.1.1",
     "debug": "^2.2.0",
     "fs-extra": "^0.24.0",

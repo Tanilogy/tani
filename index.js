@@ -41,6 +41,11 @@ switch (command) {
     lib.translate(argv)
     break
 
+  // publish
+  case 'publish':
+    lib.publish()
+    break
+
   default:
     console.log(' Command not supported %s', command)
 }
