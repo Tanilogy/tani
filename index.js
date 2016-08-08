@@ -1,9 +1,15 @@
 #! /usr/bin/env node
 
-var lib = require(__dirname + '/lib')
+var path = require('path')
+var lib = require(path.join(__dirname, 'lib'))
+var pkg = require(path.join(__dirname, 'package.json'))
 
 var argv = require('minimist')(process.argv.slice(2))
 var command = argv._[0]
+
+if (argv.v) {
+  return console.log(' ' + pkg.version)
+}
 
 switch (command) {
 
