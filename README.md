@@ -7,7 +7,7 @@ Commandline tool for generating data sets
 
 Before the system can be initialized, `tani` expects to find a directory named `concepts`, where directories/sub-directories of concept definition files are stored.
 
-A concept definition file is just a .txt file with the following structure.
+A concept definition file is just a `.txt` file with the following structure.
 
 ```
 Concise definition.
@@ -35,6 +35,8 @@ Initialize the system:
 tani init --system
 ```
 
+This will create the acf files required for creating the concept nodes in the database.
+
 ## Adding a new dialect
 
 A dialect is identified using the tribe and locality (`<tribe>/<locality>`).
@@ -42,7 +44,6 @@ A dialect is identified using the tribe and locality (`<tribe>/<locality>`).
 ```
 tani init tanw/hari
 ```
-
 
 ## Publishing the queries
 
