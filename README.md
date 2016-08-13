@@ -48,7 +48,11 @@ tani init tanw/hari
 ## Publishing the queries
 
 
+## Adding concepts to the concepts directory
 
+```
+tani add n
+```
 
 dialect files - text file under dialects/tribe/locality, which contain root word information
 concept files - acf files under system/concepts which contain
