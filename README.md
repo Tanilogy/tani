@@ -3,7 +3,31 @@
 Commandline tool for generating data sets
 
 
-## init
+## Initializing the system
+
+Before the system can be initialized, `tani` expects to find a directory named `concepts`, where directories/sub-directories of concept definition files are stored.
+
+A concept definition file is just a .txt file with the following structure.
+
+```
+Concise definition.
+
+[Note: Special note]
+
+[Eg: word = definition; in tribe/locality]
+```
+
+For example:
+
+```
+Good to experience
+
+Note: Used for describing quality of being.
+
+Eg: kaa[pyo] = beautiful; in tanw/hari
+Eg: kaa[ken] = beautiful; in galo/aalo
+Eg: kam[po] = beautiful; in adi/pasighat
+```
 
 Initialize the system:
 
@@ -11,13 +35,18 @@ Initialize the system:
 tani init --system
 ```
 
-NOTE: The `concepts` directory is required before system can be initialized.
+## Adding a new dialect
 
-Then add new dialect (`<tribe>/<locality>`):
+A dialect is identified using the tribe and locality (`<tribe>/<locality>`).
 
 ```
 tani init tanw/hari
 ```
+
+
+## Publishing the queries
+
+
 
 
 dialect files - text file under dialects/tribe/locality, which contain root word information
