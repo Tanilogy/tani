@@ -45,8 +45,17 @@ A dialect is identified using the tribe and locality (`<tribe>/<locality>`).
 tani init apatani/hari
 ```
 
-This will create the `apatani/hari` under the `dialects` dir at the root of the project. The corresponding dialect files for the `tribe/locality` will
-be generated from the `concepts` directory.
+This will create the `apatani/hari` dialect directory under the `dialects` dir at the root of the project. The corresponding dialect files for the `tribe/locality` will be generated from the `concepts` directory.
+
+This command merely generates the dialect files, the files need to be edited to make entries for the dialect by experts in the dialect.
+
+A dialect can be initialized from an existing dialect, this saves time in making entries when the dialects have a lot of similarities.
+
+```
+tani init apatani/hija from apatani/hari
+```
+
+The dialect files for `apatani/hija` will be created by copying the contents of `apatani/hari`.
 
 ## Compiling
 
@@ -66,8 +75,21 @@ tani compile --concepts
 tani compile apatani/hari
 ```
 
-## Publishing the queries
+The generated `queries` directory can be regenarated using the `compile` command, so the directory should be put in `.gitignore`.
 
+## Syncing dialect files with new concepts
+
+New concepts may be added to the `concepts` directory, to add them to a dialect:
+
+```
+tani sync apatani/hari
+```
+
+Update all dialects:
+
+```
+tani sync --all
+```
 
 ## Adding concepts to the concepts directory
 
@@ -75,14 +97,23 @@ tani compile apatani/hari
 tani add n
 ```
 
+## Publishing the queries
+
+Execute the following command at the root of the `queries` directory:
+
+```
+tani publish
+```
+
+This command needs to be rub whenever queries are compiled.
+
+
 dialect files - text file under dialects/tribe/locality, which contain root word information
 concept files - acf files under system/concepts which contain
 query files - acf query files under system/queries/tribe/path
 
 ## tani tool
-$ tani init system <-- init the system; compulsory fist step <-- what does it do?
-$ tani init galo/aalo <-- set up dirs and files for galo tribe and aalo locality based on files existing in constructs
-$ tani init galo/tato from galo/aalo <-- set up dirs and files for galo tribe and tato locality based on galo/aalo
+
 $ tani reset galo/aalo <-- delete everyting and set up dirs and files for galo tribe and aalo locality based on files existing in constructs
 $ tani delete galo/tato <-- delete galo/tato
 
@@ -98,12 +129,4 @@ $ tani add v2:mw:a note:way of doing <-- to edit, just add - will overwrite
 $ tani delete v2
 $ tani delete v2a
 $ tani rename v2a v2
-
-$ tani publish <-- make entried to database / internally calls apoc
-
-## dirs
-
-definitions mandatory to start
-dialects are manually entered
-queries are generated from definitions, put in gitignore
 
