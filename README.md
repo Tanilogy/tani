@@ -1,11 +1,14 @@
 # tani
 
-Commandline tool for generating data sets
+Commandline tool for generating data sets for Tani dialects.
 
+## System requirements
 
-## Initializing the system
+The current version works only on Mac and Linux.
 
-Before the system can be initialized, `tani` expects to find a directory named `concepts`, where directories/sub-directories of concept definition files are stored.
+## Understanding the directories and files
+
+`tani` expects to find a directory named `concepts`, where directories/sub-directories of concept definition files are stored.
 
 A concept definition file is just a `.txt` file with the following structure.
 
@@ -29,13 +32,7 @@ Eg: kaa[ken] = beautiful; in galo/aalo
 Eg: kam[po] = beautiful; in adi/pasighat
 ```
 
-Initialize the system:
-
-```
-tani init --system
-```
-
-This will create the acf files required for creating the concept nodes in the database.
+Dialect files, and hence queries, are created from these concept files.
 
 ## Adding a new dialect
 
@@ -59,9 +56,7 @@ The dialect files for `apatani/hija` will be created by copying the contents of 
 
 ## Compiling
 
-The query files for the initial set of concepts are automatically compiled when the system is initiliazied with `tani init --system`.
-
-Dialect files and additional new concept files have to be compiled to generate the query files. Only query files can be `publish`ed.
+Concept and dialect files files have to be compiled to generate the query files. Only query files can be `publish`ed.
 
 (re)Compile concepts:
 
