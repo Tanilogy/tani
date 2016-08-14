@@ -27,7 +27,7 @@ Good to experience
 
 Note: Used for describing quality of being.
 
-Eg: kaa[pyo] = beautiful; in tanw/hari
+Eg: kaa[pyo] = beautiful; in apatani/hari
 Eg: kaa[ken] = beautiful; in galo/aalo
 Eg: kam[po] = beautiful; in adi/pasighat
 ```
