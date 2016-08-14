@@ -70,6 +70,12 @@ tani compile --concepts
 tani compile apatani/hari
 ```
 
+(re)Compile a everything:
+
+```
+tani compile --all
+```
+
 The generated `queries` directory can be regenarated using the `compile` command, so the directory should be put in `.gitignore`.
 
 ## Syncing dialect files with new concepts
