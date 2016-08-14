@@ -42,7 +42,28 @@ This will create the acf files required for creating the concept nodes in the da
 A dialect is identified using the tribe and locality (`<tribe>/<locality>`).
 
 ```
-tani init tanw/hari
+tani init apatani/hari
+```
+
+This will create the `apatani/hari` under the `dialects` dir at the root of the project. The corresponding dialect files for the `tribe/locality` will
+be generated from the `concepts` directory.
+
+## Compiling
+
+The query files for the initial set of concepts are automatically compiled when the system is initiliazied with `tani init --system`.
+
+Dialect files and additional new concept files have to be compiled to generate the query files. Only query files can be `publish`ed.
+
+(re)Compile concepts:
+
+```
+tani compile --concepts
+```
+
+(re)Compile a dialect:
+
+```
+tani compile apatani/hari
 ```
 
 ## Publishing the queries
