@@ -17,19 +17,24 @@ switch (command) {
     lib.help()
     break
 
-  // initialize dir for a location
+  // add a concept
+  case 'add':
+    lib.add(argv)
+    break
+
+  // delete a concept
+  case 'delete':
+    lib.delete(argv)
+    break
+
+  // initialize a dialect
   case 'init':
     lib.init(argv)
     break
 
-  // reset files to init mode
-  case 'reset':
-    lib.reset(argv)
-    break
-
-  // delete dir
-  case 'delete':
-    lib.del(argv)
+  // delete a dialect
+  case 'uninit':
+    lib.uninit(argv)
     break
 
   // compile the dialect files to apoc queries
@@ -37,7 +42,7 @@ switch (command) {
     lib.compile(argv)
     break
 
-  // create empty dialect files from new construct files
+  // incorporate updates in concepts to dialects
   case 'sync':
     lib.sync(argv)
     break
@@ -50,6 +55,11 @@ switch (command) {
   // publish
   case 'publish':
     lib.publish()
+    break
+
+  // publish
+  case 'unpublish':
+    lib.unpublish()
     break
 
   default:
