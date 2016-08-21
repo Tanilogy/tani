@@ -42,6 +42,10 @@ Dialect files, and hence queries, are created from these concept files.
 * `dialects` - text file under dialects/tribe/locality, which contain root word information for a particular dialect
 * `queries` - directory of `acf` files, ready to be pushed to the database
 
+## Important
+
+Do not start editing the dialect files, till the concepts are clearly identified and organized a logical taxonomy. Any change in the structure of the `concepts` directory will destructively affect the dialect files.
+
 ## Adding concepts
 
 **DO NOT ADD CONCEPT FILES MANUALLY!**
@@ -86,6 +90,26 @@ Read the entry in a dialect for a concept:
 
 ```
 tani read n/1 apatani/hari
+```
+
+## Moving/renaming a concept file
+
+This will move `n/10.txt` to `n/animals` and assign it a new name based on the largest file id in the `n/animals` directory.
+
+```
+tani move n/10 n/animals
+```
+
+This will move `n/10.txt` to `n/animals` as `2.txt`, while incrementing the existing file names starting from index 2.
+
+```
+tani move n/10 n/animals@2
+```
+
+This will rename `n/10.txt` to `n/1.txt`. The pre-existing `1.txt` will be renamed `2.txt`, `2.txt` to `3.txt`, and so on.
+
+```
+tani move n/5 n@1
 ```
 
 ## Deleting concepts

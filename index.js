@@ -62,6 +62,11 @@ switch (command) {
     lib.unpublish()
     break
 
+  // publish
+  case 'move':
+    lib.move(argv)
+    break
+
   default:
     console.log(' Command not supported %s', command)
 }
