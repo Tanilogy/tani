@@ -106,7 +106,7 @@ This will move `n/10.txt` to `n/animals` as `2.txt`, while incrementing the exis
 tani move n/10 n/animals@2
 ```
 
-This will rename `n/10.txt` to `n/1.txt`. The pre-existing `1.txt` will be renamed `2.txt`, `2.txt` to `3.txt`, and so on.
+The following will rename `n/10.txt` to `n/1.txt`. The pre-existing `1.txt` will be renamed `2.txt`, `2.txt` to `3.txt`, and so on.
 
 ```
 tani move n/5 n@1
