@@ -4,7 +4,7 @@ Commandline tool for generating language data sets for Tani dialects.
 
 ## System requirements
 
-Requires a Mac or Linux with Node.js (4+) and Neo4j installation.
+Requires a Mac or Linux machine with Node.js (4+) and Neo4j installation.
 
 ## Understanding the directories and files
 
@@ -13,26 +13,23 @@ The whole project is built around a directory named `concepts`, where directorie
 A concept definition file is just a `.txt` file with the following structure.
 
 ```
-Concise definition.
-
-[Note: Special note]
-
-[Eg: word = definition; in tribe/locality]
+Concept: Concise definition
+[Note]: Any special note
+[Example:] A list of examples
 ```
 
 For example:
 
 ```
-Good to experience
-
-Note: Used for describing quality of being.
-
-Eg: kaa[pyo] = beautiful; in apatani/hari
-Eg: kaa[ken] = beautiful; in galo/aalo
-Eg: kam[po] = beautiful; in adi/pasighat
+Concept: Good to experience
+Note: Used for describing quality of being
+Examples:
+ - apatani/hari: kaa[pyo] = beautiful
+ - galo/aalo: kaa[ken] = beautiful
+ - adi/pasighat: kam[po] = beautiful
 ```
 
-Concept files can be created using the `add` command or manually. When adding manually, the file name should be next largest number in the directory.
+Concept files can be created using the `add` command or manually. When adding manually, the file name should be next largest number in the directory and the `sync --all` command must be executed after it.
 
 Dialect files, and hence queries, are created from these concept files.
 
@@ -145,7 +142,9 @@ tani delete --all
 
 ## Updating dialect files when new concepts are edited or added
 
-Use this command to update dialect files when new concept are manualy added to the `concepts` directory, or an existing one edited.
+Use this command to update dialect files when new concept are **manualy** added to the `concepts` directory, or an existing one edited.
+
+Note: If there are no dialect files, there is no need for syncing.
 
 Scan all the concepts and apply the changes to the dialect files:
 
@@ -186,6 +185,14 @@ tani init apatani/hija from apatani/hari
 ```
 
 The dialect files for `apatani/hija` will be created by copying the contents of `apatani/hari`.
+
+By default, the script used for making entries for a tribe is the one recommended by its apex body - Adi: ABK, Apatani: ALDC, Galo: GWS, Nyishi: NES. To use a custom script, create a script file in the `scripts` directory and modify the `index.js` file in the `scripts` directory.
+
+Here is an example of specifying the script for making the entries for a dialect.
+
+```
+tani init apatani/gyati --script pss
+```
 
 ## Deleting dialects
 
