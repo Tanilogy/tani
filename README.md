@@ -216,6 +216,32 @@ Delete a dialect:
 tani uninit apatani/hari
 ```
 
+## Searching
+
+Search for entries in the concept and dialect files.
+
+```
+tani search <string>
+```
+
+Search for entries in concept files.
+
+```
+tani search <string> --concept
+```
+
+Search for entries in dialect files.
+
+```
+tani search <string> --dialect
+```
+
+NOTE: make sure to run the following command after `add`, `move`, or `sync` commands to update search results.
+
+```
+tani index
+```
+
 ## Compiling
 
 Concept and dialect files files have to be compiled to generate the query files. Only query files can be `publish`ed.

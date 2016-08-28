@@ -57,14 +57,19 @@ switch (command) {
     lib.publish()
     break
 
-  // publish
+  // unpublish
   case 'unpublish':
     lib.unpublish()
     break
 
-  // publish
+  // move
   case 'move':
     lib.move(argv)
+    break
+
+  // search
+  case 'search':
+    lib.search(argv)
     break
 
   default:
