@@ -1,6 +1,6 @@
 {
   "name": "tani",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Commandline tool for generating data sets",
   "main": "index.js",
   "scripts": {
