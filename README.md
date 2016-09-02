@@ -340,6 +340,12 @@ Publish a specific concept:
 tani unpublish apatani/hari/n/animals@10
 ```
 
+## View changes
+
+```
+tani status
+```
+
 ## License
 
 [MIT](LICENSE)

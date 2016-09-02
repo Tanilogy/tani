@@ -72,6 +72,11 @@ switch (command) {
     lib.search(argv)
     break
 
+  // search
+  case 'status':
+    lib.status(argv)
+    break
+
   default:
     console.log(' Command not supported %s', command)
 }
