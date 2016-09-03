@@ -120,7 +120,7 @@ NOTE: When a concept file is deleted, the corresponding dialect file is also del
 The following command will delete an existing concept at the specified index.
 
 ```
-tani delete n@10
+tani delete n/10
 ```
 
 All files starting from 11 will be decremented by 1. Do not delete concept files, if this behavior is not wanted.
