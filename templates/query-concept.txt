@@ -1,0 +1,2 @@
+global #GLOBALID# = { gid: "#GID#", meaning: "#MEANING#", note: "#NOTE#", example: "#EXAMPLE#" }
+MERGE (#TYPE#:Concept {#GLOBALID#})

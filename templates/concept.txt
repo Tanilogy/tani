@@ -1,2 +1,0 @@
-global #GLOBALID# = { gid: "#GID#", literal: "#DEFINITION#", note: "#NOTE#", example: "#EXAMPLE#" }
-MERGE (#TYPE#:Concept {#GLOBALID#})
