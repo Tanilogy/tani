@@ -1,5 +1,5 @@
-var concept = { meaning: '#MEANING#', concept: '#CONCEPT#' }
-MERGE (n:Root {concept});
+var dialectEntry = { entry: '#ENTRY#', conceptType: '#CONCEPT-TYPE#' }
+MERGE (n:Morpheme {dialectEntry});
 
-MATCH (a:Root {concept}), (b:Concept {#GLOBALID#}) MERGE (a)-[:MEANS]->(b);
-MATCH (a:Root {concept}), (b:Locality {locality}) MERGE (a)-[:USED_AT]->(b);
+MATCH (a:Morpheme {dialectEntry}), (b:Concept {#GLOBALID#}) MERGE (a)-[:MEANS]->(b);
+MATCH (a:Morpheme {dialectEntry}), (b:Locality {locality}) MERGE (a)-[:USED_AT]->(b);

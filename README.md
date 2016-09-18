@@ -255,8 +255,22 @@ tani compile --all
 Compile concepts:
 
 ```
-tani compile --concepts
+tani compile concepts
 ```
+
+Compile verbs:
+
+```
+tani compile v
+```
+
+Compile verb modifiers:
+
+```
+tani compile vm
+```
+
+Similarly for n, nm, adj, adj, conj etc.
 
 Compile all the dialects of a tribe:
 
