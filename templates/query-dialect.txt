@@ -1,4 +1,4 @@
-var dialectEntry = { entry: '#ENTRY#', conceptType: '#CONCEPT-TYPE#' }
+var dialectEntry = { entry: '#ENTRY#', type: '#CONCEPT-TYPE#' }
 MERGE (n:Morpheme {dialectEntry});
 
 MATCH (a:Morpheme {dialectEntry}), (b:Concept {#GLOBALID#}) MERGE (a)-[:MEANS]->(b);
