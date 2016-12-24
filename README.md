@@ -15,7 +15,7 @@ A concept definition file is just a `.txt` file with the following structure.
 ```
 Concept: Concise definition
 [Note]: Any special note
-[Example:] A list of examples
+[Example]: A list of examples
 ```
 
 For example:
@@ -41,7 +41,8 @@ Dialect files, and hence queries, are created from these concept files.
 
 ## Important
 
-Do not start editing the dialect files, till the concepts are clearly identified and organized a logical taxonomy. Any change in the structure of the `concepts` directory will destructively affect the dialect files.
+1. Do not start editing the dialect files, till the concepts are clearly identified and organized a logical taxonomy. Any change in the structure of the `concepts` directory will destructively affect the dialect files.
+2. Make sure to quote any string that contains YAML special characters.
 
 ## Adding concepts
 
@@ -142,7 +143,7 @@ tani delete --all
 
 ## Updating dialect files when new concepts are edited or added
 
-Use this command to update dialect files when new concept are **manualy** added to the `concepts` directory, or an existing one edited.
+Use this command to update dialect files when new concept are **manualy** added to the `concepts` directory, or an existing one is edited.
 
 Note: If there are no dialect files, there is no need for syncing.
 
