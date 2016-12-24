@@ -10,7 +10,7 @@ Requires a Mac or Linux machine with Node.js (4+) and Neo4j installation.
 
 The whole project is built around a directory named `concepts`, where directories/sub-directories of concept definition files are stored.
 
-A concept definition file is just a `.txt` file with the following structure.
+A concept definition file is just a `.txt` file with the following (YAML) structure.
 
 ```
 Concept: Concise definition
@@ -18,15 +18,17 @@ Concept: Concise definition
 [Example]: A list of examples
 ```
 
+Note: All values under the "Example" section should be double-quoted.
+
 For example:
 
 ```
-Concept: Good to experience
-Note: Used for describing quality of being
+Concept: Good to experience"
+Note: "Used for describing quality of being"
 Examples:
- - apatani/hari: kaa[pyo] = beautiful
- - galo/aalo: kaa[ken] = beautiful
- - adi/pasighat: kam[po] = beautiful
+ - apatani/hari: "kaa[pyo] = beautiful"
+ - galo/aalo: "kaa[ken] = beautiful"
+ - adi/pasighat: "kam[po] = beautiful"
 ```
 
 Concept files can be created using the `add` command or manually. When adding manually, the file name should be next largest number in the directory and the `sync --all` command must be executed after it.
